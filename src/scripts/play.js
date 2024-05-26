@@ -133,10 +133,10 @@ document.addEventListener("DOMContentLoaded", async function  () {
         
         if (plusMinus > 0) {
             plusMinusCell.innerHTML = "+" + plusMinus;
-            plusMinusCell.style.color = "var(--green)";
+            plusMinusCell.style.color = "#0CB307";
         } else if (plusMinus < 0) {
             plusMinusCell.innerHTML = plusMinus;
-            plusMinusCell.style.color = "var(--red)";
+            plusMinusCell.style.color = "#C82123";
         } else {
             plusMinusCell.innerHTML = plusMinus;
         }
