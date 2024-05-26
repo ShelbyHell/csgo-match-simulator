@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     function createFlagImage(player){
         const flagImage = document.createElement("img");
         flagImage.className = "flag";
-        const flagImagePath = `../assets/flags/${player.country}.png`;
+        const flagImagePath = `assets/flags/${player.country}.png`;
         flagImage.src = flagImagePath;
         return flagImage;
     }
