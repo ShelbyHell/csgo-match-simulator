@@ -4,10 +4,10 @@ document.addEventListener("DOMContentLoaded", async function () {
     const teamALogo = document.getElementById("teamALogo");
     const teamBLogo = document.getElementById("teamBLogo"); 
 
-    const response = await fetch("/src/database/teams.json");
+    const response = await fetch("../database/teams.json");
     const teams = await response.json();
 
-    const responsePlayers = await fetch("/src/database/players.json");
+    const responsePlayers = await fetch("../database/players.json");
     const players = await responsePlayers.json();
 
     function populateTeamSelectors() {
